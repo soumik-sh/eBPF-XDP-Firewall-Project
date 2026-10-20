@@ -280,6 +280,7 @@ echo "[+] Setup completed successfully!"
 - XDP Tutorial (GitHub)
 - L4Drop — XDP DDoS Mitigations
 - _Learning eBPF_ by Liz Rice (Book)
+- [Gemini AI](https://gemini.google.com/)
 
 ---
 
