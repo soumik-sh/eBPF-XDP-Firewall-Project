@@ -159,16 +159,20 @@ echo "[+] Setup completed successfully!"
 1. Run the setup script with root permissions:
 
     ```bash
+    chmod +x requirements.sh
+    ```
+
+    ```bash
     sudo ./requirements.sh
     ```
 
-2. Launch the firewall interactively on the loopback interface (`lo`):
+1. Launch the firewall interactively on the loopback interface (`lo`):
 
     ```bash
     sudo python3 firewall.py -i lo
     ```
 
-3. Alternatively, launch directly as a background daemon:
+2. Alternatively, launch directly as a background daemon:
 
     ```bash
     sudo python3 firewall.py -i lo -b
